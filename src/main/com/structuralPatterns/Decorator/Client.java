@@ -1,6 +1,6 @@
 package com.structuralPatterns.Decorator;
 
-public class Barista {
+public class Client {
     public static void printCoffeeInfo(Coffee c) {
         System.out.println("Cost: " + c.getCost() + "; Ingredients: " + c.getIngredients());
     }
